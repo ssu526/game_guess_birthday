@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+
+html{
+    background-color: black;
+}
+
+body *{
+    font-size: 20px;
+    font-family: 'Atma', cursive;
+    color: white;
+}
+
+.container{
+    width: 800px;  
+    margin: auto;  
+    margin-top: 50px;
+}
+
+.question{
+    text-align: center;
+    font-size: 40px;
+    color: #227DB6;
+    font-weight: bold;
+}
+
+.sets-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.set{
+    border: 1px solid rgb(126, 123, 123);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.set:hover{
+    background-color: #F7C4A7;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    margin: 5px;
+    width: 20px;
+    text-align: right;
+}
+
+.answer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.result{
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #ED7F8C;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button{
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+}
+
+.done_button:hover{
+    background-color: #FFE100;
+}
+
+.clear_button:hover{
+    background-color: #EB505E;
+}
